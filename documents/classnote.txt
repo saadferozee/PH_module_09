@@ -1,0 +1,115 @@
+--------------------------------------------------
+    Start { 18.07.2025 FRI 11:26 PM }
+--------------------------------------------------
+
+
+[Module 09]
+
+
+
+
+Text Instruction___________________________________
+
+    Read this blog-->
+
+        https://shorturl.at/mLO3H
+
+
+
+
+Video 01___________________________________________
+    (G3 Architects Projects and Google Font Setup)
+
+    First, we add fonts, some icons in website 
+
+
+
+Video 02___________________________________________
+
+
+
+
+
+
+Video 03___________________________________________
+    (Responsive Flex and CSS Grid Span)
+
+
+
+
+
+Video 04___________________________________________
+    (Practical Grid Area Layout and Media Query)
+
+    We can use Grid-Area to define any layout -->
+        [First I have to define area name]
+        code -->
+
+            header {
+                grid-area: header;
+            }
+            nav {
+                grid-area: navbar;
+            }
+            main {
+                grid-area: main;
+            }
+            footer {
+                grid-area: footer;
+            }
+
+            .selector {
+                display: grid;
+                gap: 10px;
+
+                grid-template-area:
+                "header header header header"
+                "nav    main   main   main"
+                "nav    main   main   main"
+                "nav    main   main   main"
+                "footer footer footer footer"
+            }
+
+
+
+Video 05___________________________________________
+
+
+
+
+
+Video 06___________________________________________
+    (Make What I Do And Footer Section Responsive)
+
+    We can use calc() function for any value calculation -->
+
+        .selector {
+            width: calc(100% - 20px);
+        }
+
+
+
+Video 07___________________________________________
+
+
+
+
+Video 08___________________________________________
+
+
+
+
+Video 09___________________________________________
+
+
+
+
+PRACTICE TASK --->
+
+
+
+
+© Saad_Ferozee
+--------------------------------------------------
+    End { 18.07.2025 FRI 11:23 PM }
+--------------------------------------------------

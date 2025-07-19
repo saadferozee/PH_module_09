@@ -1,0 +1,11 @@
+/* responsive for tablet devices */
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    /* my code here */
+}
+
+
+
+/* responsive for mobile devices */
+@media screen and (max-width: 599px) {
+    /* my code here */
+}
