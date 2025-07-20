@@ -1,37 +1,59 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
 }
 
 /* import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 .work-sans-regular {
-  font-family: "Work Sans", sans-serif;
-  /* font-optical-sizing: auto; */
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 400;
+    font-style: normal;
 }
+
 .work-sans-medium {
-  font-family: "Work Sans", sans-serif;
-  /* font-optical-sizing: auto; */
-  font-weight: 500;
-  font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 500;
+    font-style: normal;
 }
+
 .work-sans-bold {
-  font-family: "Work Sans", sans-serif;
-  /* font-optical-sizing: auto; */
-  font-weight: 700;
-  font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*colors */
+.bg-highlight {
+    background-color: #ff900e20;
+}
+
+.default-highlight {
+    background-color: #ff900e;
+}
+
+.text-highlight {
+    color: #ff900e;
 }
 
 /* font colors */
 .dark-1 {
     color: #131313;
 }
+
 .dark-2 {
     color: #424242;
 }
+
 .dark-3 {
     color: #757575;
 }
@@ -40,3 +62,39 @@
 .hidden {
     display: none;
 }
+
+.flex {
+    display: flex;
+}
+
+.center-x {
+    justify-content: center;
+}
+
+.center-y {
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: #ff900e;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    color: #ffffff;
+    width: 12rem;
+    height: 4rem;
+    padding: auto auto;
+}
+
+.btn-primary:hover {
+    background-color: #ffffff;
+    border: 0.1rem solid #ff900e;
+    box-shadow: 0.4rem 0.4rem 1rem #ff900e70;
+    /* box-shadow: 0 0 0.5rem #ff900e inset; */
+    color: #ff900e;
+    transition: 0.5s;
+}
+
+
+
+/* navbar start */
